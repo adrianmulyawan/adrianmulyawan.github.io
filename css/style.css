@@ -1,9 +1,69 @@
 body {
     margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(33,33,33);
+}
+
+.navbar-cv {
+    background-color: rgb(33,33,33);
+}
+
+.jumbotron {
+    background-image: url("../img/bg-landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 100%;
 }
 
 .jumbotron img {
-    width: 25%;
+    max-width: 30%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.social-media img {
+    width: 100px;
+}
+
+.about {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-header h1{
+    color: #4C70EF;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-content p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.about-content .look-mycv a {
+    background-color: #4C70EF;
+    border-radius: 12px;
+}
+
+.about-content .look-mycv a:hover {
+    background-color: #264ddb;
+    border-radius: 12px;
+}
+
+.activity {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
 }
 
 section {
