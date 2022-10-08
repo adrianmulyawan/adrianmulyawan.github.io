@@ -39,15 +39,20 @@ body {
 
 .about-header h1{
     color: #4C70EF;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
 }
 
-.about-content p {
-    margin-top: 24px;
-    margin-bottom: 16px;
+.about-name p {
     color: #FFF;
-    font-size: 18px;
+    font-size: 30px;
+}
+
+.about-content p {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #B0ADAD;
+    font-size: 16px;
 }
 
 .about-content .look-mycv a {
@@ -58,6 +63,23 @@ body {
 .about-content .look-mycv a:hover {
     background-color: #264ddb;
     border-radius: 12px;
+}
+
+h1.what-i-do-header {
+    color: #4C70EF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.what-i-do-sub-header {
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.programming-language img {
+    width: 40px;
 }
 
 .activity {
